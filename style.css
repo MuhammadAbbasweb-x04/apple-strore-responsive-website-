@@ -15,10 +15,50 @@ font-size: 62.5%;
 
 
 :root{
---blue: #1a73e8 ;
---green:#78cb6d;
+--balck:#1d1d1f;
+--blue:#0071e3;
+--gray:#bebebe;
+
+
+}
+
+/* navbar started */
+
+.navbar-container{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
 
 
 }
 
 
+.nav-items{
+padding: 30px 20px;
+
+
+}
+
+.apple-mainu-bar{
+font-size: 2.3rem;
+color: var(--balck);
+text-decoration: none;
+
+
+}
+
+
+.nav-items a{
+font-size: 1.3rem;
+color: var(--balck);
+font-weight: 100;
+text-decoration: none;
+
+
+}
+
+
+
+
+
+/* navbar ended */
