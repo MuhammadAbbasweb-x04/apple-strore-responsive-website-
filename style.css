@@ -123,3 +123,17 @@ margin: 28px;
 
 
 /* navbar responsive ended */
+
+
+.sec-container{
+background-image:url(dtyhdfg.webp);
+height: 950px;
+background-size: cover;
+display: flex;
+justify-content: flex-start;
+}
+
+.item-image{
+    height: 600px;
+    width: 100%;
+}
