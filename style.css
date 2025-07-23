@@ -19,7 +19,7 @@ font-size: 62.5%;
 --blue:#0071e3;
 --gray:#7e7e7e;
 --whit:#ffffff;
-
+--orenge: #ee6838;
 
 
 
@@ -144,25 +144,87 @@ height: 150vh;
 
 
 
+@media ( max-width:764px  ) {
+ .sec-image{
+    width: 100%;
+    background-size: cover;
+ }   
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 /*   sec for responsive shop now ended */
+
+
+/* sec-containertwo started */
+.sec-containertwo{
+background-image:url('https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-16e-finish-unselect-gallery-3-202502?wid=5120&hei=2880&fmt=webp&qlt=90&.v=bGxrMXRYSllVRTZGbi82ZklwWis2MnJ2UHBBV3orM3VMYVQ4cFJXZmQxVWVpMnFad1czSndKRUlJS1VYcnRSb3F2TWlpSzUzejRCZGt2SjJUNGl1VEE4bm1RcmlWRWp2eDN1WHNkSjNmUllTUEwwbnM4dzBWNlY1N3hXRUlldmk&traceId=1');
+height: 110vh;
+width: 100%;
+background-size: cover;
+margin: 0 auto;
+position: relative;
+bottom: 130px;
+}
+
+
+@font-face {
+    font-family: MYRIADPRO;
+    src: url(MYRIADPRO-BOLD.OTF);
+}
+
+.container-for-sectwo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    position: relative;
+    bottom: 40px;
+}
+
+.sectwo-heading{
+    font-size: 6rem;
+  font-family: MYRIADPRO;
+  text-align: center;
+
+}
+.sectwo-para{
+    font-size: 3rem;
+      font-family: MYRIADPRO;
+      font-weight: 100;
+      color: var(--gray);
+        text-align: center;
+}
+
+
+.btn-sec-two{
+       font-family: MYRIADPRO;
+    background-color: var(--blue);
+    border-radius: 30px;
+    padding: 13px 40px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-sec-three{
+       font-family: MYRIADPRO;
+    border-radius: 30px;
+    padding: 13px 40px;
+    cursor: pointer;
+    border: 1px solid var(--blue);
+}
+
+.btn-sec-three:hover{
+  background-color: var(--blue);
+}
+
+
+.sectwo-paratwo{
+font-size: 3rem;
+font-family:MYRIADPRO ;
+  text-align: center;
+  color: var(--orenge);
+  font-weight: 100;
+
+}
+
+
+/* sec-containertwo ended */
