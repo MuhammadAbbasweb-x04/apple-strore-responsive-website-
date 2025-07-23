@@ -106,22 +106,6 @@ margin: 28px;
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* navbar responsive ended */
 
 /* main started */
@@ -131,82 +115,26 @@ margin: 28px;
 
 
 .sec-container{
-background-image:url(dtyhdfg.webp);
-height: 950px;
-background-size: cover;
-
+height: 150vh;
 }
-
-.item-container{
-    display: flex;
-    height: 580px;
-    flex-direction: column;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    width: 500px;
+.sec-image{
     position: relative;
     top: 70px;
-    gap: 20px;
+    width: 100%;
+  background-size: cover;
+  margin: 0 auto;
 }
-
-
-@font-face {
-    font-family: arimo;
-    src: url(Arimo-VariableFont_wght.ttf);
-}
-
-
-.sec-items{
-    background-color: var(--blue);
-border-radius: 10px;
-display: flex;
-flex-direction: column;
-gap: 20px;
-border-radius: 53px 47px 0px 53px;
--webkit-border-radius: 53px 47px 0px 53px;
--moz-border-radius: 53px 47px 0px 53px;
-width: 70%;
-}
-.sec-items-heading{
-    text-align: center;
-    font-size: 6rem;
-    color: var(--whit);
-       font-family: arimo;
-}
-.btnone{
-    padding: 15px 40px;
-    border-radius: 40px;
-  border: 1px solid var(--blue);
-  font-family: arimo;
-}
-.btnone:hover{
-background-color: var(--blue);
-cursor: pointer;
-
-}
-
 /* sec for shop now ended */
 
 /*   sec for responsive shop now started */
 
 
-@media ( max-width:935px  ) {
-    .sec-container{
-        width:70%;
-      background-position: center;
-        height: 100vh;
-        background-size: cover;
-  
-    }
+@media ( max-width:1024px  ) {
+ .sec-image{
+    width: 100%;
+    background-size: cover;
+ }   
 
-    .item-container{
-        width: 40%;
-        font-size: 1rem;
-    }
-    .sec-items{
-        width: 20%;
-    }
 }
 
 
