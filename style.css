@@ -166,14 +166,33 @@ top: 8px;
 
 /* sec-containertwo started */
  .sec-containertwo{
-
-
 width: 100%;
 background-size: cover;
 margin: 0 auto;
 position: relative;
 bottom: 130px;
+} 
+
+
+.img-continer{
+  height: 600px;
+  width: 250%;
+  border-radius: 50px;
+  position: relative;
+  right: 30px;
+  top: 10px;
+    object-fit: cover;
+  object-position: center center;
+  width: 100%;
+  height: auto;
+  max-width: 1200px; 
+  /* border:  2px solid black; */
+
+
+
+
 }
+
 
 
 @font-face {
@@ -185,10 +204,22 @@ bottom: 130px;
   background-color: var(--lightgray);
     display: flex;
     justify-content: center;  
-     height: 110vh; 
+     height: 105vh; 
     position: relative;
 top: 220px;
+
 }
+
+
+.to{
+display: flex;
+justify-content: center;
+
+}
+
+
+
+
 
 .sectwo-heading{
     font-size: 6rem;
@@ -212,6 +243,7 @@ top: 220px;
     padding: 13px 40px;
     border: none;
     cursor: pointer;
+
 }
 
 .btn-sec-three{
@@ -220,6 +252,7 @@ top: 220px;
     padding: 13px 40px;
     cursor: pointer;
     border: 1px solid var(--blue);
+
 
 }
 
@@ -248,12 +281,19 @@ font-family:MYRIADPRO ;
   display: flex;
   flex-direction: row;
   justify-content: center;
-/* position: relative;
-bottom: 580px; */
 }
 
 .sectwo-heading{
 font-size: 3.9rem;
+
+}
+
+
+
+.to{
+display: flex;
+flex-direction: column;
+justify-content: center;
 
 }
 
@@ -275,18 +315,15 @@ position: relative;
 bottom: 580px;
 }
 
+.img-continer{
+ width: 100%;
+}
+
+
 }
 
 
 
-@media ( max-width:375px ) {
-
-.container-for-sectwo{
-/* position: relative;
-bottom: 5980px; */
-}
-
-}
 
 
 
