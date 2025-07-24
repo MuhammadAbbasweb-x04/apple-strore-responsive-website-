@@ -21,6 +21,7 @@ font-size: 62.5%;
 --whit:#ffffff;
 --orenge: #ee6838;
 --lightgray:#f6f5f8;
+--lightblue:#daecf8;
 
 
 
@@ -356,3 +357,112 @@ bottom: 580px;
 
 /* sec-containertwo responsive  ended */
 
+
+
+.sec-containerthree{
+  height: 100vh;
+width: 100%;
+background-size: cover;
+margin: 0 auto;
+position: relative;
+bottom: 130px;
+top: 50px;
+} 
+
+
+.img-continerhim{
+  height: 100px;
+  width: 220%;
+  border-radius: 50px;
+  position: relative;
+  right: 30px;
+    object-fit: cover;
+  object-position: center center;
+  width: 100%;
+  height: auto;
+  max-width: 1200px; 
+
+
+
+
+
+
+}
+
+
+
+@font-face {
+    font-family: MYRIADPRO;
+    src: url(MYRIADPRO-BOLD.OTF);
+}
+
+.container-for-secthree{
+  
+  background-color: var(--lightgray);
+    display: flex;
+    justify-content: center;  
+     height: 110vh; 
+    position: relative;
+top: 52px;
+
+}
+
+
+.to{
+display: flex;
+justify-content: center;
+
+}
+
+
+
+
+
+.sectwo-heading{
+    font-size: 6rem;
+  font-family: MYRIADPRO;
+  text-align: center;
+
+}
+.sectwo-para{
+    font-size: 3rem;
+      font-family: MYRIADPRO;
+      font-weight: 100;
+      color: var(--gray);
+        text-align: center;
+}
+
+
+.btn-sec-two{
+       font-family: MYRIADPRO;
+    background-color: var(--blue);
+    border-radius: 30px;
+    padding: 13px 40px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.btn-sec-three{
+       font-family: MYRIADPRO;
+    border-radius: 30px;
+    padding: 13px 40px;
+    cursor: pointer;
+    border: 1px solid var(--blue);
+
+
+}
+
+.btn-sec-three:hover{
+  background-color: var(--blue);
+}
+
+
+.sectwo-paratwo{
+font-size: 2.3rem;
+font-family:MYRIADPRO ;
+  text-align: center;
+  color: var(--orenge);
+  font-weight: lighter;
+
+}
