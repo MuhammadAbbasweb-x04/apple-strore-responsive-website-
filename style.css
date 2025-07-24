@@ -204,7 +204,7 @@ bottom: 130px;
   background-color: var(--lightgray);
     display: flex;
     justify-content: center;  
-     height: 90vh; 
+     height: 100vh; 
     position: relative;
 top: 220px;
 
@@ -240,7 +240,7 @@ justify-content: center;
        font-family: MYRIADPRO;
     background-color: var(--blue);
     border-radius: 30px;
-    padding: 13px 40px;
+    padding: 15px 40px;
     border: none;
     cursor: pointer;
 
@@ -249,9 +249,12 @@ justify-content: center;
 .btn-sec-three{
        font-family: MYRIADPRO;
     border-radius: 30px;
-    padding: 13px 40px;
+    padding: 15px 40px;
     cursor: pointer;
     border: 1px solid var(--blue);
+    position: relative;
+    left: 10px;
+  
 
 
 }
@@ -360,19 +363,20 @@ bottom: 580px;
 
 
 .sec-containerthree{
-  height: 100vh;
+  background-color: var(--lightgray);
+  height: 118vh;
 width: 100%;
 background-size: cover;
 margin: 0 auto;
 position: relative;
 bottom: 130px;
-top: 50px;
+top: 100px;
 } 
 
 
 .img-continerhim{
-  height: 100px;
-  width: 220%;
+  height: 70px;
+  width:10%;
   border-radius: 50px;
   position: relative;
   right: 30px;
@@ -397,8 +401,6 @@ top: 50px;
 }
 
 .container-for-secthree{
-  
-  background-color: var(--lightgray);
     display: flex;
     justify-content: center;  
      height: 110vh; 
