@@ -20,6 +20,7 @@ font-size: 62.5%;
 --gray:#7e7e7e;
 --whit:#ffffff;
 --orenge: #ee6838;
+--lightgray:#f6f5f8;
 
 
 
@@ -80,6 +81,14 @@ padding: 0px 25px;
 }
 
 
+.links:hover {
+color: var(--balck);
+
+}
+
+
+
+
 
 
 
@@ -112,10 +121,11 @@ margin: 28px;
 
 
 /* sec for shop now started */
+.crusell{
+position: relative;
+bottom: 210px;
+top: 8px;
 
-
-.sec-container{
-height: 150vh;
 }
 .sec-image{
     position: relative;
@@ -123,17 +133,17 @@ height: 150vh;
     width: 100%;
   background-size: cover;
   margin: 0 auto;
-}
+} 
 /* sec for shop now ended */
 
 /*   sec for responsive shop now started */
 
 
-@media ( max-width:1024px  ) {
- .sec-image{
-    width: 100%;
-    background-size: cover;
- }   
+ @media ( max-width:1024px  ) {
+.sec-image {
+   width: 100%;
+   background-size: cover;
+  } 
 
 }
 
@@ -150,14 +160,14 @@ height: 150vh;
     background-size: cover;
  }   
 
-}
+} 
 /*   sec for responsive shop now ended */
 
 
 /* sec-containertwo started */
-.sec-containertwo{
-background-image:url('https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-16e-finish-unselect-gallery-3-202502?wid=5120&hei=2880&fmt=webp&qlt=90&.v=bGxrMXRYSllVRTZGbi82ZklwWis2MnJ2UHBBV3orM3VMYVQ4cFJXZmQxVWVpMnFad1czSndKRUlJS1VYcnRSb3F2TWlpSzUzejRCZGt2SjJUNGl1VEE4bm1RcmlWRWp2eDN1WHNkSjNmUllTUEwwbnM4dzBWNlY1N3hXRUlldmk&traceId=1');
-height: 110vh;
+ .sec-containertwo{
+
+
 width: 100%;
 background-size: cover;
 margin: 0 auto;
@@ -172,12 +182,12 @@ bottom: 130px;
 }
 
 .container-for-sectwo{
+  background-color: var(--lightgray);
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 30vh;
+    justify-content: center;  
+     height: 110vh; 
     position: relative;
-    bottom: 40px;
+top: 220px;
 }
 
 .sectwo-heading{
@@ -210,6 +220,7 @@ bottom: 130px;
     padding: 13px 40px;
     cursor: pointer;
     border: 1px solid var(--blue);
+
 }
 
 .btn-sec-three:hover{
@@ -218,13 +229,68 @@ bottom: 130px;
 
 
 .sectwo-paratwo{
-font-size: 3rem;
+font-size: 2.3rem;
 font-family:MYRIADPRO ;
   text-align: center;
   color: var(--orenge);
-  font-weight: 100;
+  font-weight: lighter;
 
 }
 
 
-/* sec-containertwo ended */
+/*sec-containertwo ended */
+
+
+/* sec-containertwo responsive  started */
+@media ( max-width:1024px ) {
+
+.container-for-sectwo{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+/* position: relative;
+bottom: 580px; */
+}
+
+.sectwo-heading{
+font-size: 3.9rem;
+
+}
+
+.btn-sec-two{
+     width: 100%;
+     margin-bottom: 15px;
+}
+
+.btn-sec-three{
+  width: 100%;
+}
+}
+
+
+@media ( max-width:764px ) {
+
+.container-for-sectwo{
+position: relative;
+bottom: 580px;
+}
+
+}
+
+
+
+@media ( max-width:375px ) {
+
+.container-for-sectwo{
+/* position: relative;
+bottom: 5980px; */
+}
+
+}
+
+
+
+
+
+/* sec-containertwo responsive  ended */
+
