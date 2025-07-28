@@ -365,7 +365,7 @@ bottom: 580px;
 
 /* sec-containertwo responsive  ended */
 
-
+/* sec-containerthree started */
 
 .container-three{
   background-color: var(--lightgray);
@@ -468,9 +468,9 @@ font-family:MYRIADPRO ;
 
 }
 
+/* sec-containerthree  ended */
 
-
-
+/* sec-containerthree responsive  started */
 
 @media ( max-width:1024px ) {
 
@@ -552,3 +552,4 @@ bottom: 580px;
 }
 
 
+/* sec-containerthree responsive  ended */
